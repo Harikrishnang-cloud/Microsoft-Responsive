@@ -1,0 +1,139 @@
+
+/* nav bar*/
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box ;
+}
+.body-style{
+    width:90%;
+    margin:0 auto;
+}
+.logo{
+    padding:15px 35px;
+    height:3.8rem;
+}
+.nav-link{
+    font-size:13px;
+    padding:0 10px 0 10px;
+}
+:root{
+    --bg-color: #f2f2f2;
+    --text-dark:#000;
+}
+.nav-icon{
+    font-size: 18px;
+    padding:0 10px 0 10px;
+    color:var(--text-dark);
+}
+li{
+    list-style: none;
+    font-size: 13px;
+    padding: 15px;
+}
+
+/* Carousel code */
+.img-slider
+{
+    width: 60%;
+}
+.slider-text{
+    
+    text-align: left;
+    margin-left: 6rem;
+    margin-top: 6rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    position: absolute;
+}
+
+/* device section */
+.margin-top{
+    margin-top: 8rem !important;
+}
+.img-device{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.device-text a{
+    font-size:16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Card Section */
+.card{
+    border:none;
+}
+.card a{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.card h2{
+    font-size: 2.5rem;
+}
+.A1{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* AI Section */
+.unlock
+{
+    height:450px;
+    width: 100%;
+    background-image: url(/Bootstrap/Microsoft-Responsive/Photos/unlock.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+.btn{
+    margin-top: 20px;
+}
+
+/* Social Media */
+.social-media{
+    margin-top:4rem;
+}
+.social-media p{
+    font-size: 1.5rem;
+}
+.social-media i{
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+
+/* Footer Section */
+footer{
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color:var(--text-dark);
+}
+footer p{
+    font-weight: bold;
+    color:#616161;
+}
+
+/* Section MediaQuery */
+
+@media(max-width:1080px){
+    .slider-text{
+        position: static !important;
+    }
+
+}

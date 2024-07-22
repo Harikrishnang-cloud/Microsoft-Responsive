@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a1a1a;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="MSCOM_Icons" data-name="MSCOM Icons">
+    <g id="Link-List-Icons-Xbox-Games-Consoles">
+      <g id="Bounding_Box" data-name="Bounding Box">
+        <rect class="cls-2" width="120" height="120"/>
+      </g>
+      <g id="Xbox_Orb" data-name="Xbox Orb">
+        <path class="Xbox (1).png">
+      </g>
+    </g>
+  </g>
+</svg>
